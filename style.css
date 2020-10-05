@@ -1,0 +1,148 @@
+* {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #F0EBF4;
+}
+
+.content {
+	width: 90%;
+	padding-bottom: 50px;
+}
+
+.header {
+	position: relative;
+	text-align: center;
+}
+
+.name {
+	font-size: 5rem;
+	position: absolute;
+	top: 65%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: black;
+	width: 100%;
+}
+
+h1 {
+	text-align: center;
+	padding: 10px 0;
+}
+
+h2 {
+	padding: 8px 0;
+}
+
+h3 {
+	padding: 6px 0px;
+}
+
+h4, p {
+	padding: 4px 0;
+}
+
+ul {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+a {
+	color: #2346C8;
+}
+
+a:visited {
+	color: #2346C8;
+}
+
+.menu {
+	background-color: pink;
+	overflow: hidden;
+	margin-bottom: 50px;
+}
+
+.menu a {
+	float: left;
+	color: black;
+	text-align: center;
+	padding: 10px;
+	width: 150px;
+	text-decoration: none;
+	font-size: 2rem;
+}
+
+.menu a:hover {
+	background-color: #F0EBF4;
+	color: black;
+}
+
+.menu a.active {
+	background-color: #F0EBF4;
+	color: black;
+}
+
+.background {
+	width: 100%;
+	height: 25%;
+}
+
+#headshot {
+	float: left;
+	border-radius: 50%;
+	margin: 10px 20px;
+	box-shadow: 5px 5px 5px #7a7a7a;
+}
+
+.bio {
+	padding: 20px;
+	background-color: white;
+	line-height: 1.5rem;
+	font-size: 1.25rem;
+	box-shadow: 5px 5px 5px #7a7a7a;
+}
+
+.contactInfo {
+	text-align: center;
+	clear: left;
+	margin: 0, auto;
+	width: 100%;
+}
+
+.contactInfo img{
+	padding: 10px;
+}
+
+.contactInfo a, h3{
+	font-size: 1.5rem;
+}
+
+.email, .phone, .linkedin {
+	background-color: pink;
+	display: inline-block;
+	margin: 20px;
+	padding: 10px;
+	text-align: center;
+	width: 200px;
+	border: 5px solid pink;
+	box-shadow: 5px 5px 5px #7a7a7a;
+}
+
+.email:hover, .phone:hover, .linkedin:hover {
+	border: 5px solid white;
+}
+
+.block {
+	padding: 20px;
+	background-color: white;
+	margin-bottom: 20px;
+	box-shadow: 5px 5px 5px #7a7a7a;
+}
+
+.skills {
+	columns: 3;
+}
+
+.center {
+	text-align: center;
+}
