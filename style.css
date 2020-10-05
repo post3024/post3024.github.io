@@ -149,6 +149,9 @@ a:visited {
 
 @media screen and (max-width: 480px) {
 	.name {
-		font-size: 2rem;
+		font-size: 3rem;
+	}
+	.menu a {
+		width: 75px;
 	}
 }
