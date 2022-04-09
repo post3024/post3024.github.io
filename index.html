@@ -1,4 +1,4 @@
-<!DOCTYPR html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<link rel='stylesheet' href='style.css'/>
@@ -14,34 +14,46 @@
 		</div>
 		<div class='menu'>
 			<a class='active' href='index.html'>Home</a>
-			<a href='projects.html'>Projects</a>
 			<a href='resume.html'>Resume</a>
-			<a href='fun.html'>Fun</a>
+			<a href='projects.html'>Projects</a>
+			<a href='reflection.html'>Reflection</a>
 		</div>
 		<div class='content'>
 			<img id='headshot' src='Images/headshot.png' alt='headshot'>
 			<div class='bio'>
 				<h2>Welcome!</h2>
-				<p>Hello, my name is Laura and I am a third-year student at the University of St. Thomas majoring in computer science and minoring in Math. I am a hardworking and self-motivated developer with experience as a software engineer intern at Thomson Reuters. I have a passion for developing efficient, effective, and creative solutions using strong problem solving, programming, communication, and organization skills.</p>
+				<p>Hello, my name is Laura and I am a senior at the University of St. Thomas majoring in Computer Science and minoring in Math. I am a hardworking and self-motivated developer with experience as a software engineer intern at Thomson Reuters. I have a passion for developing efficient, effective, and creative solutions using strong problem solving, programming, communication, and organization skills.</p>
 			</div>
-			<div class='contactInfo'>
-				<h1>Contact Information</h1>
-				<div class = 'email'>
-					<img src='Images/email.png' alt='email'>
-					<h3>Email</h3>
-					<a href = 'mailto: laura.post@live.com'>laura.post@live.com</a>
-				</div>
-				<div class = 'phone'>
-					<img src='Images/phone.png' alt='phone'>
-					<h3>Phone Number</h3>
-					<a href = 'tel:651-955-8663'>651-955-8663</a>
-				</div>
-				<div class = 'linkedin'>
-					<img src='Images/linkedin.png' alt='linkedin'>
-					<h3>LinkedIn</h3>
-					<a href = 'https://www.linkedin.com/in/laura-post' target = '_blank'>laura-post</a>
-				</div>
+			<div class='block'>
+				<h2>What You Can Find on This Site</h2>
+				<h3>Resume</h3>
+				<p>My full resume is included which lists my skills, work experience, education, and related courses.</p>
+				<h3>Projects</h3>
+				<p>This section showcases two computer science projects I've completed in my classes at the University of St. Thomas. Each project has a brief description, a link to the GitHub repository that contains the full code, as well as some photos of executions of the project. Additionally, I've selected two projects outside the field of computer science to showcase my other valuable skills I've learned throughout my liberal arts education.</p>
+				<h3>Reflection</h3>
+				<p>In this section, I have a reflection essay that describes the contents of this portfolio and highlights the meaningful skills I've acquired during my time at St. Thomas.</p>
+			</div>
+			<div class='block'>
+				<h2>Video Introduction</h2>
 			</div>
 		</div>
+
+		<footer>
+			<div class='contactInfo'>
+				
+				<div class = 'email' onclick="window.open('mailto: laura.post@live.com')" style="cursor: pointer;">
+					<img src='Images/email.png' alt='email'>
+					<p>Email</p>
+				</div>
+				<div class = 'phone' onclick="window.open('tel:651-955-8663')" style="cursor: pointer;">
+					<img src='Images/phone.png' alt='phone'>
+					<p>Phone Number</p>
+				</div>
+				<div class = 'linkedin' onclick="window.open('https://www.linkedin.com/in/laura-post', '_blank')" style="cursor: pointer;">
+					<img src='Images/linkedin.png' alt='linkedin'>
+					<p>LinkedIn</p>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>

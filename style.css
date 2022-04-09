@@ -14,11 +14,12 @@ body {
 .header {
 	position: relative;
 	text-align: center;
+	background-color: white;
 }
 
 .background {
 	width: 100%;
-	height: 25%;
+	height: 160px;
 }
 
 .name {
@@ -96,10 +97,11 @@ a:visited {
 }
 
 .bio {
-	padding: 20px;
+	padding: 50px 20px;
 	background-color: white;
 	line-height: 1.5rem;
 	font-size: 1.25rem;
+	margin-bottom: 50px;
 	box-shadow: 5px 5px 5px #7a7a7a;
 }
 
@@ -108,29 +110,27 @@ a:visited {
 	clear: left;
 	margin: 0, auto;
 	width: 100%;
+	font-size: 11pt;
+}
+
+.contactInfo a{
+	color: black;
+	text-align: center;
+	padding: 5px;
+	text-decoration: none;
+	font-weight: bold;
 }
 
 .contactInfo img{
-	padding: 10px;
-}
-
-.contactInfo a, h3{
-	font-size: 1.5rem;
+	padding: 5px;
+	display: block;
 }
 
 .email, .phone, .linkedin {
-	background-color: pink;
 	display: inline-block;
 	margin: 20px;
-	padding: 10px;
+	padding: 5px;
 	text-align: center;
-	width: 200px;
-	border: 5px solid pink;
-	box-shadow: 5px 5px 5px #7a7a7a;
-}
-
-.email:hover, .phone:hover, .linkedin:hover {
-	border: 5px solid white;
 }
 
 .block {
@@ -156,4 +156,8 @@ a:visited {
 	.name {
 		font-size: 4rem;
 	}
+}
+
+footer {
+	background-color: pink;
 }
